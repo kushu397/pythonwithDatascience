@@ -1,7 +1,6 @@
-# Model
-
+# streamlit/Gemini/models.py
 import os
-from google import genai
+
 
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 if not gemini_api_key:
